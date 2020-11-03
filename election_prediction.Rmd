@@ -9,7 +9,6 @@ output:
 ```{r setup, include=FALSE}
 library(broom)
 library(tidyverse)
-# setwd("/Users/maxyou/Desktop/STA304/A3/")
 # Loading in the cleaned survey Data
 survey_data <- read_csv("survey_data.csv")
 
@@ -23,7 +22,9 @@ census_data <- read_csv("census_data.csv")
 ## Jianzhong You, Ziyue Xu
 ## 2020-11-02
 
-The code used for data cleaning and data analysis in this paper is available at: https://github.com/xuziyue/2020-US-Presidential-Election-Prediction.git
+The code used for data cleaning and data analysis in this paper is available at:
+
+https://github.com/xuziyue/2020-US-Presidential-Election-Prediction.git
 
 # Model
 
